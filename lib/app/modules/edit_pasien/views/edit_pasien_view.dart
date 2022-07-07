@@ -17,7 +17,9 @@ class EditPasienView extends GetView<EditPasienController> {
     controller.kodeDokterC.text = pasien.kdDokter!;
     controller.namaPasienC.text = pasien.namaPasien!;
     return Scaffold(
+      backgroundColor: plainBlueColor,
       appBar: AppBar(
+        backgroundColor: secondaryColor,
         title: const Text('Edit Data Pasien'),
         centerTitle: true,
       ),
@@ -37,25 +39,32 @@ class EditPasienView extends GetView<EditPasienController> {
           ),
           box,
           Obx(
-            () => DropdownButton<Dokter>(
-              style: whiteTextStyle,
-              borderRadius: BorderRadius.circular(10),
-              focusColor: Colors.blue,
-              dropdownColor: Colors.blue,
-              alignment: Alignment.center,
-              isExpanded: true,
-              items: (controller.dokterC.allDokter as List<Dokter>)
-                  .map((Dokter e) => DropdownMenuItem<Dokter>(
-                        value: e,
-                        child: Text("${e.kdDokter} - ${e.namaDokter}"),
-                      ))
-                  .toList(),
-              onChanged: (value) {
-                controller.kodeDokterC.text = value!.kdDokter!;
-                controller.hintDokter.value =
-                    "${value.kdDokter} - ${value.namaDokter}";
-              },
-              hint: Text(controller.hintDokter.value),
+            () => DecoratedBox(
+              decoration: gradient,
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10),
+                child: DropdownButton<Dokter>(
+                  style: whiteTextStyle,
+                  borderRadius: BorderRadius.circular(10),
+                  focusColor: Colors.blue,
+                  dropdownColor: Colors.blue,
+                  alignment: Alignment.center,
+                  underline: const SizedBox(),
+                  isExpanded: true,
+                  items: (controller.dokterC.allDokter as List<Dokter>)
+                      .map((Dokter e) => DropdownMenuItem<Dokter>(
+                            value: e,
+                            child: Text("${e.kdDokter} - ${e.namaDokter}"),
+                          ))
+                      .toList(),
+                  onChanged: (value) {
+                    controller.kodeDokterC.text = value!.kdDokter!;
+                    controller.hintDokter.value =
+                        "${value.kdDokter} - ${value.namaDokter}";
+                  },
+                  hint: Text(controller.hintDokter.value),
+                ),
+              ),
             ),
           ),
           box,

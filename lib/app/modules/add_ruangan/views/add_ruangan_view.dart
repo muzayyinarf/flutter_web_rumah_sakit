@@ -10,7 +10,9 @@ class AddRuanganView extends GetView<AddRuanganController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: plainBlueColor,
       appBar: AppBar(
+        backgroundColor: secondaryColor,
         title: const Text('Tambah Ruangan'),
         centerTitle: true,
       ),

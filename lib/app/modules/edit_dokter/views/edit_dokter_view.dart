@@ -15,7 +15,9 @@ class EditDokterView extends GetView<EditDokterController> {
     controller.namaDokterC.text = dokter.namaDokter!;
     controller.spesialisDokterC.text = dokter.spesialis!;
     return Scaffold(
+      backgroundColor: plainBlueColor,
       appBar: AppBar(
+        backgroundColor: secondaryColor,
         title: const Text('Edit Dokter'),
         centerTitle: true,
       ),

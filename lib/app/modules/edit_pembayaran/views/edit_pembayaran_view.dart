@@ -21,7 +21,9 @@ class EditPembayaranView extends GetView<EditPembayaranController> {
     controller.hintRuangan.value = pembayaran.kdRuangan!;
     controller.hintPasien.value = pembayaran.kdPasien!;
     return Scaffold(
+      backgroundColor: plainBlueColor,
       appBar: AppBar(
+        backgroundColor: secondaryColor,
         title: const Text('Edit Pembayaran'),
         centerTitle: true,
       ),

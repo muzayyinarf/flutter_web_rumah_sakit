@@ -12,7 +12,9 @@ class PembayaranView extends GetView<PembayaranController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: plainBlueColor,
       appBar: AppBar(
+        backgroundColor: secondaryColor,
         title: Text(
           'Data Pembayaran',
           style: whiteTextStyle,

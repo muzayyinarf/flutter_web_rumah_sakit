@@ -12,7 +12,9 @@ class PasienView extends GetView<PasienController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: plainBlueColor,
       appBar: AppBar(
+        backgroundColor: secondaryColor,
         title: const Text('Data Pasien'),
         centerTitle: true,
       ),

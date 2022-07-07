@@ -15,7 +15,9 @@ class EditRuanganView extends GetView<EditRuanganController> {
     controller.jenisRuangan.text = ruangan.jenisRuangan!;
     controller.hargaPermalam.text = ruangan.hargaPermalam.toString();
     return Scaffold(
+      backgroundColor: plainBlueColor,
       appBar: AppBar(
+        backgroundColor: secondaryColor,
         title: const Text('Edit Ruangan'),
         centerTitle: true,
       ),

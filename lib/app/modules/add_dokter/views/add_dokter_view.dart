@@ -10,7 +10,9 @@ class AddDokterView extends GetView<AddDokterController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: plainBlueColor,
       appBar: AppBar(
+        backgroundColor: secondaryColor,
         title: Text(
           'Tambah Dokter',
           style: whiteTextStyle,

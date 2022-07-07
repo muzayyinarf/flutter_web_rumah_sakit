@@ -12,7 +12,9 @@ class RuanganView extends GetView<RuanganController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: plainBlueColor,
       appBar: AppBar(
+        backgroundColor: secondaryColor,
         title: Text(
           'Data Ruangan',
           style: whiteTextStyle,

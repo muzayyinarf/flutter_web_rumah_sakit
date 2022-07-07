@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+Color secondaryColor = const Color(0xFF04293A);
+Color primaryColor = const Color(0xff041C32);
+Color plainBlueColor = const Color(0xff064663);
+Color plainPastelColor = const Color(0xffECB365);
+
 Color purpleColor = const Color(0xff5843BE);
 Color orangeColor = const Color(0xffFF9376);
 Color blackColor = const Color(0xff000000);
@@ -30,9 +35,8 @@ TextStyle regularTextStyle = GoogleFonts.poppins()
 
 BoxDecoration gradient = BoxDecoration(
     gradient: const LinearGradient(colors: [
-      Colors.redAccent,
-      Colors.blueAccent,
-      Colors.purpleAccent
+      Color(0xff8360c3),
+      Color(0xff2ebf91),
       //add more colors
     ]),
     borderRadius: BorderRadius.circular(5),

@@ -11,7 +11,9 @@ class AddPasienView extends GetView<AddPasienController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: plainBlueColor,
       appBar: AppBar(
+        backgroundColor: secondaryColor,
         title: const Text('Tambah Data Pasien'),
         centerTitle: true,
       ),

@@ -12,11 +12,13 @@ class DokterView extends GetView<DokterController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: plainBlueColor,
       appBar: AppBar(
         title: Text(
           'Data Dokter',
           style: whiteTextStyle,
         ),
+        backgroundColor: secondaryColor,
         centerTitle: true,
       ),
       body: FutureBuilder(
