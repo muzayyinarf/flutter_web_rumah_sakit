@@ -1,0 +1,28 @@
+^C:\PROJECT\IDEAPROJECTS\RUMAH_SAKIT\BUILD\WINDOWS\CMAKEFILES\58D2FA71A3F716194FED3D5FAF80D6EE\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\development\flutter PROJECT_DIR=C:\Project\IdeaProjects\rumah_sakit FLUTTER_ROOT=C:\development\flutter FLUTTER_EPHEMERAL_DIR=C:\Project\IdeaProjects\rumah_sakit\windows\flutter\ephemeral PROJECT_DIR=C:\Project\IdeaProjects\rumah_sakit FLUTTER_TARGET=C:\Project\IdeaProjects\rumah_sakit\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Project\IdeaProjects\rumah_sakit\.dart_tool\package_config.json C:/development/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROJECT\IDEAPROJECTS\RUMAH_SAKIT\BUILD\WINDOWS\CMAKEFILES\BF4EA97FEE1CED0D397B4158720A1C07\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\PROJECT\IDEAPROJECTS\RUMAH_SAKIT\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Project/IdeaProjects/rumah_sakit/windows -BC:/Project/IdeaProjects/rumah_sakit/build/windows --check-stamp-file C:/Project/IdeaProjects/rumah_sakit/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

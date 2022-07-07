@@ -1,0 +1,9 @@
+C:/Project/IdeaProjects/rumah_sakit/build/windows/runner/Debug/data/icudtl.dat
+C:/Project/IdeaProjects/rumah_sakit/build/windows/runner/Debug/flutter_windows.dll
+C:/Project/IdeaProjects/rumah_sakit/build/windows/runner/Debug/url_launcher_windows_plugin.dll
+C:/Project/IdeaProjects/rumah_sakit/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+C:/Project/IdeaProjects/rumah_sakit/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+C:/Project/IdeaProjects/rumah_sakit/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+C:/Project/IdeaProjects/rumah_sakit/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+C:/Project/IdeaProjects/rumah_sakit/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
+C:/Project/IdeaProjects/rumah_sakit/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf

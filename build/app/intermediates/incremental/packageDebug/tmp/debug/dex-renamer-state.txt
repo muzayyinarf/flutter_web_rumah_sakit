@@ -1,0 +1,4 @@
+#Thu Jul 07 07:28:21 ICT 2022
+base.0=C\:\\Project\\IdeaProjects\\rumah_sakit\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

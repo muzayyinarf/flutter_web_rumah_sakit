@@ -1,0 +1,10 @@
+^C:\PROJECT\IDEAPROJECTS\RUMAH_SAKIT\BUILD\WINDOWS\CMAKEFILES\E5FC715A0902A13EECE331C9D53D52B9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Project/IdeaProjects/rumah_sakit/windows -BC:/Project/IdeaProjects/rumah_sakit/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Project/IdeaProjects/rumah_sakit/build/windows/rumah_sakit.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

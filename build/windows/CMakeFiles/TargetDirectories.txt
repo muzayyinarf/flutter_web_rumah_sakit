@@ -1,0 +1,13 @@
+C:/Project/IdeaProjects/rumah_sakit/build/windows/CMakeFiles/INSTALL.dir
+C:/Project/IdeaProjects/rumah_sakit/build/windows/CMakeFiles/ALL_BUILD.dir
+C:/Project/IdeaProjects/rumah_sakit/build/windows/CMakeFiles/ZERO_CHECK.dir
+C:/Project/IdeaProjects/rumah_sakit/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/Project/IdeaProjects/rumah_sakit/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/Project/IdeaProjects/rumah_sakit/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+C:/Project/IdeaProjects/rumah_sakit/build/windows/flutter/CMakeFiles/INSTALL.dir
+C:/Project/IdeaProjects/rumah_sakit/build/windows/runner/CMakeFiles/rumah_sakit.dir
+C:/Project/IdeaProjects/rumah_sakit/build/windows/runner/CMakeFiles/INSTALL.dir
+C:/Project/IdeaProjects/rumah_sakit/build/windows/runner/CMakeFiles/ALL_BUILD.dir
+C:/Project/IdeaProjects/rumah_sakit/build/windows/plugins/url_launcher_windows/CMakeFiles/url_launcher_windows_plugin.dir
+C:/Project/IdeaProjects/rumah_sakit/build/windows/plugins/url_launcher_windows/CMakeFiles/INSTALL.dir
+C:/Project/IdeaProjects/rumah_sakit/build/windows/plugins/url_launcher_windows/CMakeFiles/ALL_BUILD.dir
